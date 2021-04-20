@@ -1,21 +1,20 @@
-const container = document.querySelector(".products")
+const results = document.querySelector(".results")
 
 const flower = "http://matiasjohannesen.no/wp-json/wc/store/products/"
 
 fetch(flower, {
-
+    
 })
 
 .then(response => response.json())
 .then(data => productTemplate(data))
-.catch(err => {
-    console.error(err)
-})
+.catch(error => results.innerHTML = "ups that went wrong");
+
 
 
 
 const productTemplate =(products)=>{
-    container.innerHTML = "";
+    results.innerHTML = "";
     for(product of products){
         console.log(product)
         let productDiv = ``
@@ -29,5 +28,6 @@ const productTemplate =(products)=>{
             </ul>
             `
         }
+        results.innerHTML += productDiv
     }
 }
