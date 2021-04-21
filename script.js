@@ -1,6 +1,6 @@
 const results = document.querySelector(".results")
 
-const flower = "http://matiasjohannesen.no/wp-json/wc/store/products/"
+const flower = "https://matiasjohannesen.no/wp-json/wc/store/products/"
 
 fetch(flower, {
     
