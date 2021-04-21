@@ -24,7 +24,7 @@ const productTemplate =(products)=>{
             <a href="single-product.html?id=${product.id}"><img src="${image.thumbnail}"></a>
             <li>${product.name}</li>
             <p>£${product.prices.price}</p>
-            <button>View</button>
+            <a href="single-product.html?id=${product.id}"><button>View</button></a>
             </ul>
             `
         }
