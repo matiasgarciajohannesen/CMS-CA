@@ -22,6 +22,21 @@ ul.card {
     margin: 50px;
 }
 
+p{
+    display: flex;
+    justify-content: center;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    height: 30px;
+    width: 80px;
+}
+
 button:hover {
     cursor: pointer;  
 }
