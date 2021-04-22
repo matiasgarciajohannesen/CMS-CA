@@ -61,7 +61,7 @@ li {
     display: flex;
     justify-content: center;
     font-weight: bolder;
-    margin-bottom: 5px;
+    margin: 10px 0 10px 0;
 }
 
 button {
@@ -91,5 +91,5 @@ footer img {
 }
 
 footer p {
-    margin-bottom: 20px;
+    margin: 20px 0 10px 0;
 }
