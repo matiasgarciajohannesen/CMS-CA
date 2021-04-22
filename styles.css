@@ -10,6 +10,11 @@ header {
     padding-top: 20px;
 }
 
+.logo img {
+    height: 200px;
+    width: 1000px;
+}
+
 h1 {
     font-size: xx-large;
 }
@@ -25,15 +30,18 @@ main {
 
 .results {
     display: grid;
+    justify-content: center;
     grid-template-columns: 1fr 1fr;
 }
 
 ul.card {
     margin: 40px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 324px;
 }
 
 img {
-    width: 80%;
+    width: 100%;
 }
 
 p{
@@ -48,7 +56,7 @@ li {
 
 button {
     height: 30px;
-    width: 80%;
+    width: 100%;
     color: #e0aab9;
     background-color: #394f4c;
 }
