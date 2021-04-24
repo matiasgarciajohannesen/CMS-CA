@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    background-color: #F0F0F0;
+}
+
+.logo img {
+    height: 200px;
+    width: 1000px;
+}
+
+h1 {
+    font-size: xx-large;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: #ffffff;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.results {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+ul.card {
+    margin: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    width: 324px;
+}
+
+img {
+    width: 100%;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    margin-bottom: 5px;
+}
+
+button {
+    height: 30px;
+    width: 100%;
+    color: #ffffff;
+    background-color: #394f4c;
+}
+
+button:hover {
+    cursor: pointer;  
+}
+
+footer {
+    display: grid;
+    justify-content: center;
+    border-top: #394f4c;
+    background-color: #F0F0F0;
+}
+
+footer img {
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    margin-top: 10px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
