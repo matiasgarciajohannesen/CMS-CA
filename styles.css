@@ -73,6 +73,7 @@ button {
     margin: 0 50px 5px 115px;
     color: #ffffff;
     background-color: #394f4c;
+    border-radius: 5px;
 }
 
 button:hover {
